@@ -1,0 +1,24 @@
+{
+  "name": "volquetelanus.www",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Navarro",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "imagemin": "^8.0.1",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4"
+  }
+}
