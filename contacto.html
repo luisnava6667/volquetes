@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volquetes Lanus</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="build/css/all.css" rel="stylesheet"> <!--load all styles -->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Oswald:wght@300;500;700&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta title="Volquetes Lanus - En Zona Sur">
+        <meta name="description" content="Volquetes Lanus servicios de volquetes en: Lanus, Gerli, Banfield, Monte Chingolo, Sarandi, Wilde J. Marmol, San Jose, Temperley, R. Escalada, V. Alsina">
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="Luis Navarro">
+        <meta name="keywords" content="Volquete, Lanus, volquete zona sur" >
+        <title>Volquetes Lanus</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="build/css/all.css" rel="stylesheet"> <!--load all styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Oswald:wght@300;500;700&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="build/css/app.css">
+    </head>
 <body>
     <header class="header header-inicio">
         <div class="contenido-header contenedor">
@@ -23,7 +27,7 @@
                 <div>
                     <nav class="nav-principal">
                         <a href="index.html">Inicio</a>
-                        <a href="historia.html">Nuestra Historia</a>
+                        <a href="nosotros.html">Nosotros</a>
                         <a href="galeria.html">Galeria</a>
                         <a class="activo" href="contacto.html">Contacto</a>
                     </nav>
@@ -39,16 +43,15 @@
             <form class="formulario" method="post" action="enviar.php">
                 <div class="campo">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
+                    <input type="text" name="nombre" id="nombre" required="required" placeholder="Tu Nombre">
                 </div>
                 <div class="campo">
                     <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" placeholder="Tu Email">
+                    <input type="email" name="email" id="email" required="required" placeholder="Tu Email">
                 </div>
-                
                 <div class="campo">
                     <label for="tel">Telefono: </label>
-                    <input type="tel" name="telefono" id="tel" placeholder="Tu Telefono">
+                    <input type="tel" name="telefono" id="tel" required="required" placeholder="Tu Telefono">
                 </div>
                 <div class="campo">
                     <label for="text">Mensaje: </label>
@@ -74,16 +77,12 @@
             <div class="footer-box contacto">
                 <h3>Contacto</h3>
                 <p>Tel. 42254690</p>
-                
-                
-
-                <a class="tel" href="tel:+54 9 42254690"></a>
+                <a class="tel" href="tel:42254690"></a>
                 <p>WhatsApp</p>
                 <a class="whats" href="https://api.whatsapp.com/send?phone=+5491144714708&text=Hola, Nececito mas informacion!"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
         <p class="copyright">Todos los derechos resevados. Volquetes Lanus</p>
     </footer>
-    
 </body>
 </html>
